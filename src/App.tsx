@@ -98,9 +98,9 @@ function App() {
         <section className="organizers section-pad"><div><SectionLabel>In collaboration with</SectionLabel><h2>Built by a community<br />that <span>believes.</span></h2></div><div className="org-list"><div><b>Institute Innovation Cell
 </b><span>BIT Mesra - Noida Campus</span></div><div><b>MMM CIE</b><span>Madan Mohan Mahanka Centre for Innovation & Entrepreneurship</span></div><div><b>EDC</b><span>Entrepreneurship Development Cell</span></div><div><b>FC</b><span>Finance Club, BIT Mesra</span></div></div></section>
 
-        <section id="contact" className="contact section-pad section-light"><div><SectionLabel>Stay connected</SectionLabel><h2>Let’s build<br /><span>what’s next.</span></h2></div><div className="contact-fields"><div><small>CONTACT PERSON</small><b>Shristi Kashyap
-Harshita Jaiswal
-Dhrubajyoti Paul</b></div><div><small>PHONE</small><b>To be updated</b></div><div><small>EMAIL</small><b>To be updated</b></div><div><small>WEBSITE</small><b>edcbitmesra.in</b></div></div></section>
+        <section id="contact" className="contact section-pad section-light"><div><SectionLabel>Stay connected</SectionLabel><h2>Let’s build<br /><span>what’s next.</span></h2></div><div className="contact-fields"><div><small>CONTACT PERSON</small><b>Shristi Kashyap</b>
+<b>Harshita Jaiswal</b>
+<b>Dhrubajyoti Paul</b></div><div><small>PHONE</small><b>To be updated</b></div><div><small>EMAIL</small><b>To be updated</b></div><div><small>WEBSITE</small><b>edcbitmesra.in</b></div></div></section>
       </main>
 
       <footer className="footer"><div className="footer-top"><a className="brand" href="#top"><span className="brand-mark"><Sparkles size={18} /></span><span><b>BUSINESS PLAN</b><small>BIT MESRA · 2026</small></span></a><p>Pre-qualifier event of<br /><i>BIT-NISHAN</i></p><div className="socials"><a href="#contact" aria-label="Instagram"><Instagram size={18} /></a><a href="#contact" aria-label="LinkedIn"><Linkedin size={18} /></a><a href="#contact" aria-label="Facebook"><Facebook size={18} /></a><a href="#contact" aria-label="YouTube"><Youtube size={18} /></a></div></div><div className="footer-bottom"><span>© 2026 Business Plan · BIT Mesra</span><div><a href="#about">About</a><a href="#prizes">Prizes</a><a href="#registration">Register</a><a href="#contact">Contact</a></div><a href="#top">Back to top <ChevronDown size={15} className="rotate-180" /></a></div></footer>
