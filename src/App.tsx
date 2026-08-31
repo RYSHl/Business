@@ -95,9 +95,10 @@ function App() {
 
         <section id="registration" className="register section-pad"><div className="register-stamp"><Rocket size={28} /><span>YOUR<br />MOMENT<br />IS NOW</span></div><div><SectionLabel>Take the first step</SectionLabel><h2>Don’t wait for<br /><span>opportunity.</span></h2><p>Opportunities don’t happen. You create them.</p></div><a className="button button-primary button-large" href={event.registrationUrl}>Register now <MoveUpRight size={18} /></a><p className="editable-note">Registration link will be updated here.</p></section>
 
-        <section className="organizers section-pad"><div><SectionLabel>In collaboration with</SectionLabel><h2>Built by a community<br />that <span>believes.</span></h2></div><div className="org-list"><div><b>Institute Innovation Cell
-</b><span>BIT Mesra - Noida Campus</span></div><div><b>MMM CIE</b><span>Madan Mohan Mahanka Centre for Innovation & Entrepreneurship</span></div><div><b>EDC</b><span>Entrepreneurship Development Cell</span></div><div><b>FC</b><span>Finance Club, BIT Mesra</span></div></div></section>
-
+        <section className="organizers section-pad"><div><SectionLabel>In collaboration with</SectionLabel><h2>Built by a community<br />that <span>believes.</span></h2></div><div <div className="org-list">
+  <div><b>Institute Innovation Cell</b><span>BIT Mesra - Noida Campus</span></div>
+  <div><b>EDC</b><span>Entrepreneurship Development Cell</span></div>
+</div>
         <section id="contact" className="contact section-pad section-light"><div><SectionLabel>Stay connected</SectionLabel><h2>Let’s build<br /><span>what’s next.</span></h2></div><div className="contact-fields"><div><small>CONTACT PERSON</small><b>Shristi Kashyap</b>
 <b>Harshita Jaiswal</b>
 <b>Dhrubajyoti Paul</b></div><div><small>PHONE</small><b>To be updated</b></div><div><small>EMAIL</small><b>To be updated</b></div><div><small>WEBSITE</small><b>edcbitmesra.in</b></div></div></section>
