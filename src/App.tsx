@@ -52,6 +52,7 @@ const timeline = [
   ['04', 'What do I need to submit first?'],
   ['05', 'What happens after I submit my idea?'],
   ['06', 'What if my idea doesnot fit the listed themes'],
+  ['07', 'Will I receive a certificate?'],
 ];
 
 function SectionLabel({ children }: { children: ReactNode }) {
