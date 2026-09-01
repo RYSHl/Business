@@ -3,7 +3,21 @@
 @tailwind components;
 @tailwind utilities;
 
-:root { --ink:#07192f; --ink-soft:#0d2947; --green:#87c540; --green-bright:#a8e45b; --paper:#f4f5f0; --muted:#718091; --line:#d9dfdc; }
+:root {
+  --ink: #18283A;
+  --ink-soft: #063B55;
+  --green: #8B4BC4;
+  --green-bright: #A96BDA;
+  --paper: #D0C5D3;
+  --muted: #625D68;
+  --line: #B8AEBE;
+
+  --purple: #5A126F;
+  --purple-bright: #8B4BC4;
+  --teal: #063B55;
+  --yellow: #FFD21A;
+  --white: #F8F6F8;
+}
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; }
 body { margin:0; background:var(--paper); color:var(--ink); font-family:'Manrope', sans-serif; line-height:1.5; }
