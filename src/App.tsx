@@ -10,7 +10,7 @@ const event = {
   shortDates: '28 — 29 OCT 2026',
   time: '10:00 AM — 6:00 PM',
   registrationUrl: 'https://forms.gle/v95W2UdKuG1YYir98',
-  mapUrl: '#location',
+  mapUrl: 'https://maps.app.goo.gl/Jj2Lysqn5t9otbFu7',
 };
 
 const topics = [
