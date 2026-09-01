@@ -116,16 +116,23 @@ function App() {
 
         <section className="people section-pad"><div className="section-intro intro-row"><div><SectionLabel>The room</SectionLabel><h2>Meet the minds<br /><span>behind the next big thing.</span></h2></div><p>Investors, mentors and judges who will help ideas get sharper. Profiles will be announced soon.</p></div><div className="people-grid">{['Investors', 'Mentors', 'Judges'].map((label, index) => <div className="person-card" key={label}><div className="person-orb">{index === 0 ? <BarChart3 /> : index === 1 ? <Lightbulb /> : <ShieldCheck />}</div><span>Coming soon</span><h3>{label}</h3><p>Profiles and participation details will be added here.</p><button aria-label={`Learn more about ${label}`}>Learn more <ArrowRight size={16} /></button></div>)}</div></section>
 
-        <section id="rules" className="rules section-pad section-light">
-  <div className="rules-heading">
+       <section id="timeline" className="timeline section-pad section-dark">
+  <div className="section-intro">
     <SectionLabel>Rules & guidelines</SectionLabel>
-    <h2>Good to know before you register</h2>
+    <h2>
+      Good to know<br />
+      <span>before you register.</span>
+    </h2>
   </div>
 
-  <div className="rules-list">
-    {rules.map((rule) => (
-      <div className="rule-item" key={rule}>
-        <h3>{rule}</h3>
+  <div className="timeline-list">
+    {timeline.map(([number, title]) => (
+      <div className="timeline-item" key={number}>
+        <span>{number}</span>
+        <div>
+          <h3>{title}</h3>
+        </div>
+        <ArrowRight size={17} />
       </div>
     ))}
   </div>
