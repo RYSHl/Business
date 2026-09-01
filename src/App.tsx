@@ -45,14 +45,13 @@ const topics = [
     copy: 'AI-powered devices and technologies designed to solve real-world sustainability challenges.'
   },
 ];
-const rules = [
-  'Who can participate?',
-  'How many members can be in a team?',
-  'Is there a registration fee?',
-  'What do I need to submit first?',
-  'What happens after I submit my idea?',
-  "What if my idea doesn't fit the listed themes?",
-  'Will I receive a certificate?',
+const timeline = [
+  ['01', 'Registration', 'Open now · Details to be announced'],
+  ['02', 'Business plan submission', 'Date to be announced'],
+  ['03', 'Shortlisting', 'Date to be announced'],
+  ['04', 'Presentation / pitching', '28 — 29 October 2026'],
+  ['05', 'Final evaluation', '28 — 29 October 2026'],
+  ['06', 'Results', 'To be announced'],
 ];
 
 function SectionLabel({ children }: { children: ReactNode }) {
