@@ -145,7 +145,7 @@ function App() {
 </section>
         <section id="contact" className="contact section-pad section-light"><div><SectionLabel>Stay connected</SectionLabel><h2>Let’s build<br /><span>what’s next.</span></h2></div><div className="contact-fields"><div><small>CONTACT PERSON</small><b>Shristi Kashyap</b>
 <b>Harshita Jaiswal</b>
-<b>Dhrubajyoti Paul</b></div><div><small>PHONE</small><b>To be updated</b></div><div><small>EMAIL</small><b>To be updated</b></div><div><small>WEBSITE</small><b>edcbitmesra.in</b></div></div></section>
+<b>Dhrubajyoti Paul</b></div><div><small>PHONE</small><b>+91 70018 50166</b></div><div><small>EMAIL</small><b>shriiiistii@gmail.com</b></div><div><small>WEBSITE</small><b>bitmesra.ac.in</b></div></div></section>
       </main>
 
       <footer className="footer"><div className="footer-top"><a className="brand" href="#top"><span className="brand-mark"><Sparkles size={18} /></span><span><b>BUSINESS PLAN</b><small>BIT MESRA - NOIDA Campus · 2026</small></span></a><p><br /><i></i></p><div className="socials"><a href="https://www.instagram.com/bitnoidacampus/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><Instagram size={18} /></a><a href="https://www.linkedin.com/company/bit-noida-campus/posts/?feedView=all" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><Linkedin size={18} /></a><a href="https://www.facebook.com/share/19EnUHWRmc/" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><Facebook size={18} /></a><a href="https://youtube.com/@bitmesranoidacampus?si=WRuPEwLyefx9cuVM" aria-label="YouTube" target="_blank" rel="noopener noreferrer">
