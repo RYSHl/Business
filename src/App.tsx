@@ -14,11 +14,37 @@ const event = {
 };
 
 const topics = [
-  { number: '01', icon: Lightbulb, title: 'Topic to be announced', copy: 'The official challenge brief will be shared with registered teams.' },
-  { number: '02', icon: BarChart3, title: 'Topic to be announced', copy: 'Stay tuned for the business opportunity your team will unpack.' },
-  { number: '03', icon: Globe2, title: 'Topic to be announced', copy: 'Build a thoughtful plan for a more inventive, sustainable future.' },
+  {
+    number: '01',
+    icon: Lightbulb,
+    title: 'Production Services',
+    copy: 'Innovative solutions that improve production, efficiency, and sustainable operations.'
+  },
+  {
+    number: '02',
+    icon: BarChart3,
+    title: 'Oil Conservation & Energy Sustainability',
+    copy: 'Ideas focused on conserving energy, improving efficiency, and building a sustainable energy future.'
+  },
+  {
+    number: '03',
+    icon: Globe2,
+    title: 'Water Conservation & Resources Sustainability',
+    copy: 'Solutions for responsible water use, conservation, management, and sustainable resource development.'
+  },
+  {
+    number: '04',
+    icon: Lightbulb,
+    title: 'Pollution Prevention',
+    copy: 'Innovative approaches to reduce pollution, waste, and environmental impact.'
+  },
+  {
+    number: '05',
+    icon: BarChart3,
+    title: 'AI Devices',
+    copy: 'AI-powered devices and technologies designed to solve real-world sustainability challenges.'
+  },
 ];
-
 const timeline = [
   ['01', 'Registration', 'Open now · Details to be announced'],
   ['02', 'Business plan submission', 'Date to be announced'],
