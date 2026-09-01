@@ -45,13 +45,14 @@ const topics = [
     copy: 'AI-powered devices and technologies designed to solve real-world sustainability challenges.'
   },
 ];
-const timeline = [
-  ['01', 'Registration', 'Open now · Details to be announced'],
-  ['02', 'Business plan submission', 'Date to be announced'],
-  ['03', 'Shortlisting', 'Date to be announced'],
-  ['04', 'Presentation / pitching', '28 — 29 October 2026'],
-  ['05', 'Final evaluation', '28 — 29 October 2026'],
-  ['06', 'Results', 'To be announced'],
+const rules = [
+  'Who can participate?',
+  'How many members can be in a team?',
+  'Is there a registration fee?',
+  'What do I need to submit first?',
+  'What happens after I submit my idea?',
+  "What if my idea doesn't fit the listed themes?",
+  'Will I receive a certificate?',
 ];
 
 function SectionLabel({ children }: { children: ReactNode }) {
@@ -92,7 +93,7 @@ function App() {
         <a className="brand" href="#top" onClick={closeMenu} aria-label="Business Plan 2026 home"><span className="brand-mark"><Sparkles size={18} /></span><span><b>VENTURE X 2026</b><small>BIT MESRA - NOIDA CAMPUS · 2026</small></span></a>
         <button className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)} aria-label={menuOpen ? 'Close menu' : 'Open menu'} aria-expanded={menuOpen}>{menuOpen ? <X /> : <Menu />}</button>
         <nav className={menuOpen ? 'main-nav is-open' : 'main-nav'} aria-label="Main navigation">
-          {['About', 'Challenge', 'Prizes', 'Timeline', 'Location'].map((item) => <a key={item} href={`#${item.toLowerCase()}`} onClick={closeMenu}>{item}</a>)}
+          {['About', 'Challenge', 'Prizes', 'Rules', 'Location'].map((item) => <a key={item} href={`#${item.toLowerCase()}`} onClick={closeMenu}>{item}</a>)}
           <a className="nav-cta" href={event.registrationUrl} onClick={closeMenu}>Register <MoveUpRight size={15} /></a>
         </nav>
       </header>
@@ -116,7 +117,20 @@ function App() {
 
         <section className="people section-pad"><div className="section-intro intro-row"><div><SectionLabel>The room</SectionLabel><h2>Meet the minds<br /><span>behind the next big thing.</span></h2></div><p>Investors, mentors and judges who will help ideas get sharper. Profiles will be announced soon.</p></div><div className="people-grid">{['Investors', 'Mentors', 'Judges'].map((label, index) => <div className="person-card" key={label}><div className="person-orb">{index === 0 ? <BarChart3 /> : index === 1 ? <Lightbulb /> : <ShieldCheck />}</div><span>Coming soon</span><h3>{label}</h3><p>Profiles and participation details will be added here.</p><button aria-label={`Learn more about ${label}`}>Learn more <ArrowRight size={16} /></button></div>)}</div></section>
 
-        <section id="timeline" className="timeline section-pad section-dark"><div className="section-intro"><SectionLabel>The journey</SectionLabel><h2>From first spark<br /><span>to final pitch.</span></h2></div><div className="timeline-list">{timeline.map(([number, title, detail]) => <div className="timeline-item" key={number}><span>{number}</span><div><h3>{title}</h3><p>{detail}</p></div><ArrowRight size={17} /></div>)}</div></section>
+        <section id="rules" className="rules section-pad section-light">
+  <div className="rules-heading">
+    <SectionLabel>Rules & guidelines</SectionLabel>
+    <h2>Good to know before you register</h2>
+  </div>
+
+  <div className="rules-list">
+    {rules.map((rule) => (
+      <div className="rule-item" key={rule}>
+        <h3>{rule}</h3>
+      </div>
+    ))}
+  </div>
+</section>
 
         <section id="location" className="location section-pad section-light"><div className="location-map"><div className="map-lines" /><div className="map-pin"><MapPin size={28} fill="currentColor" /></div><span className="map-label">BIT MESRA</span><div className="map-coord">23°24' N<br />85°26' E</div></div><div className="location-copy"><SectionLabel>Save the date</SectionLabel><h2>See you<br /><span>at BIT MESRA - NOIDA Campus.</span></h2><div className="date-block"><CalendarDays /><div><b>28th — 29th October 2026</b><span>10:00 AM — 6:00 PM</span></div></div><div className="date-block"><MapPin /><div><b>BIT Mesra</b><span>Ranchi, Jharkhand</span></div></div><a className="text-link" href={event.mapUrl}>Open map <ExternalLink size={15} /></a></div></section>
 
