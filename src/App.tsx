@@ -46,12 +46,12 @@ const topics = [
   },
 ];
 const timeline = [
-  ['01', 'Registration', 'Open now · Details to be announced'],
-  ['02', 'Business plan submission', 'Date to be announced'],
-  ['03', 'Shortlisting', 'Date to be announced'],
-  ['04', 'Presentation / pitching', '28 — 29 October 2026'],
-  ['05', 'Final evaluation', '28 — 29 October 2026'],
-  ['06', 'Results', 'To be announced'],
+  ['01', 'Who can participate?'],
+  ['02', 'How many members can be in a team?'],
+  ['03', 'Is there a registration fee?'],
+  ['04', 'What do I need to submit first?'],
+  ['05', 'What happens after I submit my idea?'],
+  ['06', 'What if my idea doesnot fit the listed themes'],
 ];
 
 function SectionLabel({ children }: { children: ReactNode }) {
@@ -116,7 +116,7 @@ function App() {
 
         <section className="people section-pad"><div className="section-intro intro-row"><div><SectionLabel>The room</SectionLabel><h2>Meet the minds<br /><span>behind the next big thing.</span></h2></div><p>Investors, mentors and judges who will help ideas get sharper. Profiles will be announced soon.</p></div><div className="people-grid">{['Investors', 'Mentors', 'Judges'].map((label, index) => <div className="person-card" key={label}><div className="person-orb">{index === 0 ? <BarChart3 /> : index === 1 ? <Lightbulb /> : <ShieldCheck />}</div><span>Coming soon</span><h3>{label}</h3><p>Profiles and participation details will be added here.</p><button aria-label={`Learn more about ${label}`}>Learn more <ArrowRight size={16} /></button></div>)}</div></section>
 
-        <section id="rules" className="rules section-pad section-light">
+        <section id="timeline" className="timeline section-pad section-light">
   <div className="rules-heading">
     <SectionLabel>Rules & guidelines</SectionLabel>
     <h2>Good to know before you register</h2>
