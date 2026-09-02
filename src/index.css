@@ -181,9 +181,13 @@ button { font:inherit; }
 }
 
 .sponsors-hero-content > span {
-  color: #D8B9EB;
-  font: 700 12px 'DM Mono', monospace;
-  letter-spacing: .2em;
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  display: block;
 }
 
 .sponsors-hero h1 {
