@@ -1,5 +1,3 @@
-
-import React from 'react';
 import {
   ArrowRight,
   ArrowDownRight,
@@ -11,7 +9,6 @@ import {
   Network,
   Star,
   Target,
-  Trophy,
   Users,
 } from 'lucide-react';
 
@@ -21,427 +18,304 @@ export default function Sponsors() {
 
       {/* HEADER */}
       <header className="sponsors-header">
-        <a href="/" className="sponsors-brand">
-          <span className="sponsors-brand-mark">✦</span>
+        <a href="/Business/" className="sponsors-brand">
+          <span className="sponsors-brand-mark">VX</span>
           <span>
             <b>VENTURE X 2026</b>
-            <small>BIT MESRA - NOIDA CAMPUS · 2026</small>
+            <small>BIT MESRA - NOIDA CAMPUS</small>
           </span>
         </a>
 
         <nav className="sponsors-nav">
-  <a href="/Business/">Home</a>
-  <a href="/Business/#about">About Us</a>
-  <a href="/Business/#challenge">Challenge</a>
-  <a href="/Business/#prizes">Prizes</a>
-  <a href="/Business/#timeline">Rules</a>
-  <a href="/Business/#location">Location</a>
-  <a href="/Business/#/sponsors" className="active">Sponsors</a>
-
-          <a
-            className="sponsors-register"
-            href="https://forms.gle/v95W2UdKuG1YYir98"
-          >
-            Register
-            <ArrowDownRight size={15} />
-          </a>
+          <a href="/Business/">HOME</a>
         </nav>
       </header>
 
 
       {/* HERO */}
-      <main>
+      <section className="sponsors-hero">
+        <div className="sponsors-hero-overlay" />
 
-        <section className="sponsors-hero">
-          <div className="sponsors-hero-grid">
-
-            <div>
-              <p className="sponsors-label">
-                <span />
-                PARTNER WITH VENTURE X 2026
-              </p>
-
-              <h1>
-                Fuel the next
-                <em> generation.</em>
-              </h1>
-
-              <p className="sponsors-hero-text">
-                Partner with Venture X 2026 and become part of a platform
-                where ambitious ideas meet industry, innovation and
-                opportunity.
-              </p>
-
-              <div className="sponsors-hero-actions">
-                <a href="#partnership" className="sponsors-button primary">
-                  Become a Partner
-                  <ArrowRight size={17} />
-                </a>
-
-                <a href="#opportunities" className="sponsors-button ghost">
-                  Explore opportunities
-                  <ArrowDownRight size={17} />
-                </a>
-              </div>
-            </div>
-
-            <div className="sponsors-hero-art">
-              <div className="sponsor-orbit orbit-one" />
-              <div className="sponsor-orbit orbit-two" />
-              <div className="sponsor-orbit orbit-three" />
-
-              <div className="sponsor-center">
-                <Handshake size={68} strokeWidth={1.1} />
-              </div>
-
-              <div className="floating-sponsor-card card-one">
-                <Star size={17} />
-                <span>VISIBILITY</span>
-              </div>
-
-              <div className="floating-sponsor-card card-two">
-                <Network size={17} />
-                <span>NETWORK</span>
-              </div>
-
-              <div className="floating-sponsor-card card-three">
-                <Lightbulb size={17} />
-                <span>INNOVATION</span>
-              </div>
-            </div>
-
-          </div>
-        </section>
-
-
-        {/* INTRO */}
-        <section className="sponsors-intro">
-          <div>
-            <p className="sponsors-label">
-              <span />
-              WHY PARTNER
-            </p>
-
-            <h2>
-              More than a logo.
-              <br />
-              <em>A meaningful connection.</em>
-            </h2>
-          </div>
-
+        <div className="sponsors-hero-content">
+          <span>PARTNER WITH VENTURE X 2026</span>
+          <h1>
+            Fuel the next<br />
+            generation of ideas.
+          </h1>
           <p>
-            Venture X 2026 brings together students, entrepreneurs,
-            innovators, mentors, investors and industry leaders. Your
-            organization can play an active role in helping promising
-            ideas move from concept to real-world impact.
+            Partner with a platform that brings together ambitious
+            student innovators, industry leaders and people who believe
+            in turning ideas into impact.
           </p>
-        </section>
+        </div>
+
+        <div className="sponsors-hero-mark">
+          <Handshake size={54} strokeWidth={1.3} />
+        </div>
+      </section>
 
 
-        {/* WHY PARTNER */}
-        <section className="sponsor-benefits">
+      {/* INTRO */}
+      <section className="sponsors-intro">
+        <span className="sponsors-kicker">WHY PARTNER WITH US</span>
 
-          <div className="sponsor-benefit-card">
-            <div className="sponsor-icon">
+        <h2>
+          More than a logo.
+          <br />
+          <span>A meaningful connection.</span>
+        </h2>
+
+        <p>
+          Venture X 2026 creates a direct connection between forward-thinking
+          organizations and the next generation of innovators. Your support
+          helps create opportunities for ideas that can shape a more
+          sustainable future.
+        </p>
+
+        <p>
+          By partnering with Venture X 2026, your organization becomes part
+          of an ecosystem built around innovation, entrepreneurship,
+          sustainability and meaningful engagement.
+        </p>
+      </section>
+
+
+      {/* BENEFITS */}
+      <section className="sponsors-benefits">
+        <div className="sponsors-section-heading">
+          <span>01 / WHY PARTNER</span>
+          <h2>Why partner with<br /><strong>Venture X.</strong></h2>
+        </div>
+
+        <div className="benefit-grid">
+
+          <article className="benefit-card">
+            <div className="benefit-icon">
               <Megaphone />
             </div>
             <span>01</span>
             <h3>Strategic Brand Visibility</h3>
             <p>
-              Put your organization in front of an engaged audience
-              across the Venture X ecosystem, event communications
-              and digital platforms.
+              Position your organization in front of ambitious students,
+              innovators and future entrepreneurs.
             </p>
-          </div>
+          </article>
 
-          <div className="sponsor-benefit-card">
-            <div className="sponsor-icon">
+          <article className="benefit-card">
+            <div className="benefit-icon">
               <Users />
             </div>
             <span>02</span>
-            <h3>Access Emerging Talent</h3>
+            <h3>Access to Emerging Talent</h3>
             <p>
-              Connect with ambitious students, founders and innovators
-              building solutions for real-world challenges.
+              Connect with talented young minds and discover fresh
+              perspectives, skills and ideas.
             </p>
-          </div>
+          </article>
 
-          <div className="sponsor-benefit-card">
-            <div className="sponsor-icon">
-              <Target />
+          <article className="benefit-card">
+            <div className="benefit-icon">
+              <Lightbulb />
             </div>
             <span>03</span>
-            <h3>Support Innovation</h3>
+            <h3>Champion Innovation</h3>
             <p>
-              Associate your organization with entrepreneurship,
-              responsible innovation and the next generation of
-              business leaders.
+              Support innovative solutions addressing real-world
+              sustainability and business challenges.
             </p>
-          </div>
+          </article>
 
-          <div className="sponsor-benefit-card">
-            <div className="sponsor-icon">
-              <Network />
+          <article className="benefit-card">
+            <div className="benefit-icon">
+              <Handshake />
             </div>
             <span>04</span>
-            <h3>Build Meaningful Connections</h3>
+            <h3>Meaningful Engagement</h3>
             <p>
-              Engage beyond traditional sponsorship through mentoring,
-              judging, networking and direct interaction with teams.
+              Build genuine connections with participants, mentors,
+              institutions and the wider innovation community.
             </p>
-          </div>
+          </article>
 
-        </section>
-
-
-        {/* OPPORTUNITIES */}
-        <section id="opportunities" className="sponsor-opportunities">
-
-          <div className="sponsor-section-heading">
-            <p className="sponsors-label">
-              <span />
-              PARTNERSHIP OPTIONS
-            </p>
-
-            <h2>
-              Sponsorship &
-              <br />
-              <em>engagement opportunities.</em>
-            </h2>
-
-            <p>
-              Choose a partnership format that aligns with your
-              organization's objectives.
-            </p>
-          </div>
+        </div>
+      </section>
 
 
-          <div className="opportunity-list">
+      {/* OPPORTUNITIES */}
+      <section className="sponsor-opportunities">
+        <div className="sponsors-section-heading">
+          <span>02 / OPPORTUNITIES</span>
+          <h2>
+            Build a partnership
+            <br />
+            <strong>that matters.</strong>
+          </h2>
+        </div>
 
-            <div className="opportunity-item">
-              <div className="opportunity-number">01</div>
-              <div className="opportunity-icon">
-                <Trophy />
-              </div>
-              <div>
-                <h3>Event & Track Sponsorship</h3>
-                <p>
-                  Associate your organization with Venture X 2026,
-                  specific challenge tracks, stages or key event
-                  moments.
-                </p>
-              </div>
-              <ArrowRight />
-            </div>
+        <div className="opportunity-list">
 
-
-            <div className="opportunity-item">
-              <div className="opportunity-number">02</div>
-              <div className="opportunity-icon">
-                <Lightbulb />
-              </div>
-              <div>
-                <h3>Mentorship & Expert Sessions</h3>
-                <p>
-                  Bring your expertise directly to participating
-                  teams through mentoring, workshops, panels or
-                  expert sessions.
-                </p>
-              </div>
-              <ArrowRight />
-            </div>
-
-
-            <div className="opportunity-item">
-              <div className="opportunity-number">03</div>
-              <div className="opportunity-icon">
-                <Star />
-              </div>
-              <div>
-                <h3>Awards & Recognition</h3>
-                <p>
-                  Support a special award or recognition category
-                  and connect your brand with outstanding ideas.
-                </p>
-              </div>
-              <ArrowRight />
-            </div>
-
-
-            <div className="opportunity-item">
-              <div className="opportunity-number">04</div>
-              <div className="opportunity-icon">
-                <Network />
-              </div>
-              <div>
-                <h3>Networking & Industry Connect</h3>
-                <p>
-                  Participate in curated interactions with
-                  participants, mentors, investors and industry
-                  professionals.
-                </p>
-              </div>
-              <ArrowRight />
-            </div>
-
-
-            <div className="opportunity-item">
-              <div className="opportunity-number">05</div>
-              <div className="opportunity-icon">
-                <Megaphone />
-              </div>
-              <div>
-                <h3>Media & Brand Storytelling</h3>
-                <p>
-                  Showcase your organization's commitment to
-                  entrepreneurship and innovation through event
-                  communications and digital storytelling.
-                </p>
-              </div>
-              <ArrowRight />
-            </div>
-
-          </div>
-        </section>
-
-
-        {/* WHO WE PARTNER WITH */}
-        <section className="partner-types">
-
-          <div className="sponsor-section-heading">
-            <p className="sponsors-label">
-              <span />
-              OUR PARTNERS
-            </p>
-
-            <h2>
-              Who we
-              <br />
-              <em>partner with.</em>
-            </h2>
-          </div>
-
-          <div className="partner-type-grid">
-
-            <div>
-              <Building2 />
-              <h3>Corporates & Industry Leaders</h3>
-            </div>
-
-            <div>
-              <BriefcaseBusiness />
-              <h3>Investment Firms & Funds</h3>
-            </div>
-
-            <div>
-              <Lightbulb />
-              <h3>Innovation-led Enterprises</h3>
-            </div>
-
-            <div>
+          <div className="opportunity-item">
+            <div className="opportunity-icon">
               <Target />
-              <h3>Sustainability Organizations</h3>
             </div>
-
             <div>
-              <Users />
-              <h3>Foundations & Institutions</h3>
+              <span>01</span>
+              <h3>Event & Track Sponsorship</h3>
+              <p>
+                Associate your brand with the event or specific
+                challenge areas.
+              </p>
             </div>
+            <ArrowRight />
+          </div>
 
+          <div className="opportunity-item">
+            <div className="opportunity-icon">
+              <Lightbulb />
+            </div>
             <div>
+              <span>02</span>
+              <h3>Keynote & Mentorship</h3>
+              <p>
+                Bring industry knowledge directly to the innovators
+                building tomorrow.
+              </p>
+            </div>
+            <ArrowRight />
+          </div>
+
+          <div className="opportunity-item">
+            <div className="opportunity-icon">
+              <Star />
+            </div>
+            <div>
+              <span>03</span>
+              <h3>Awards & Recognition</h3>
+              <p>
+                Support and celebrate ideas that demonstrate exceptional
+                potential.
+              </p>
+            </div>
+            <ArrowRight />
+          </div>
+
+          <div className="opportunity-item">
+            <div className="opportunity-icon">
               <Network />
-              <h3>Startup & Ecosystem Partners</h3>
             </div>
-
-          </div>
-        </section>
-
-
-        {/* PARTNERS / LOGOS */}
-        <section className="previous-partners">
-
-          <div className="sponsor-section-heading centered">
-            <p className="sponsors-label">
-              <span />
-              OUR ASSOCIATIONS
-            </p>
-
-            <h2>
-              Previous
-              <br />
-              <em>associations.</em>
-            </h2>
-
-            <p>
-              Partner logos and previous associations will be displayed
-              here as they are confirmed.
-            </p>
+            <div>
+              <span>04</span>
+              <h3>Networking & Engagement</h3>
+              <p>
+                Connect with students, mentors, founders and industry
+                professionals.
+              </p>
+            </div>
+            <ArrowRight />
           </div>
 
-          <div className="partner-logo-grid">
-
-            <div className="partner-logo">PARTNER 01</div>
-            <div className="partner-logo">PARTNER 02</div>
-            <div className="partner-logo">PARTNER 03</div>
-            <div className="partner-logo">PARTNER 04</div>
-            <div className="partner-logo">PARTNER 05</div>
-            <div className="partner-logo">PARTNER 06</div>
-
-          </div>
-        </section>
-
-
-        {/* CTA */}
-        <section id="partnership" className="sponsor-cta">
-
-          <div className="sponsor-cta-inner">
-
-            <p className="sponsors-label">
-              <span />
-              LET'S BUILD TOGETHER
-            </p>
-
-            <h2>
-              Put your brand
-              <br />
-              <em>behind the next big idea.</em>
-            </h2>
-
-            <p>
-              Explore a partnership with Venture X 2026 and help create
-              a platform where innovative ideas can become meaningful
-              ventures.
-            </p>
-
-            <a href="mailto:sponsors@venturex2026.com" className="sponsors-button primary">
-              Contact for Partnership
-              <ArrowRight size={17} />
-            </a>
-
+          <div className="opportunity-item">
+            <div className="opportunity-icon">
+              <Megaphone />
+            </div>
+            <div>
+              <span>05</span>
+              <h3>Media & Storytelling</h3>
+              <p>
+                Tell your organization's story through meaningful event
+                communication and engagement.
+              </p>
+            </div>
+            <ArrowRight />
           </div>
 
-        </section>
+        </div>
+      </section>
 
 
-        {/* FOOTER */}
-        <footer className="sponsors-footer">
+      {/* PARTNER TYPES */}
+      <section className="partner-types">
+        <div className="sponsors-section-heading">
+          <span>03 / WHO WE PARTNER WITH</span>
+          <h2>
+            Built for organizations
+            <br />
+            <strong>that believe in ideas.</strong>
+          </h2>
+        </div>
+
+        <div className="partner-type-grid">
 
           <div>
-            <b>VENTURE X 2026</b>
-            <span>
-              National Level Sustainable Innovation and Startup Pitch Competition
-            </span>
+            <Building2 />
+            <h3>Corporates & Industry Leaders</h3>
           </div>
 
           <div>
-            <a href="/">Back to Venture X</a>
+            <BriefcaseBusiness />
+            <h3>Investors & Angel Networks</h3>
           </div>
 
-        </footer>
+          <div>
+            <Lightbulb />
+            <h3>Innovation-Led Enterprises</h3>
+          </div>
 
-      </main>
+          <div>
+            <Target />
+            <h3>Sustainability Organizations</h3>
+          </div>
+
+        </div>
+      </section>
+
+
+      {/* PREVIOUS ASSOCIATIONS */}
+      <section className="previous-partners">
+        <span className="sponsors-kicker">PREVIOUS ASSOCIATIONS</span>
+
+        <h2>Organizations that<br /><span>believed in us.</span></h2>
+
+        <div className="partner-logos">
+          <div>PARTNER LOGO</div>
+          <div>PARTNER LOGO</div>
+          <div>PARTNER LOGO</div>
+          <div>PARTNER LOGO</div>
+        </div>
+      </section>
+
+
+      {/* CTA */}
+      <section className="sponsor-cta">
+        <div>
+          <span>LET'S BUILD SOMETHING MEANINGFUL</span>
+          <h2>
+            Your support could
+            <br />
+            <strong>shape the next big idea.</strong>
+          </h2>
+          <p>
+            Become a partner of Venture X 2026 and help us create a
+            platform where ideas can grow into impact.
+          </p>
+        </div>
+
+        <a href="mailto:sponsors@venturex2026.com">
+          Become a Sponsor
+          <ArrowDownRight size={18} />
+        </a>
+      </section>
+
+
+      {/* FOOTER */}
+      <footer className="sponsors-footer">
+        <span>© 2026 VENTURE X · BIT MESRA - NOIDA CAMPUS</span>
+
+        <a href="/Business/">
+          Home <ArrowRight size={15} />
+        </a>
+      </footer>
+
     </div>
   );
 }
-
-
