@@ -130,7 +130,7 @@ function App() {
       <SectionLabel>The room</SectionLabel>
       <h2>
         Meet the minds<br />
-        <span>behind the next big thing.</span>
+        <span>behind .</span>
       </h2>
     </div>
 
