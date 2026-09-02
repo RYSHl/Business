@@ -93,11 +93,13 @@ function App() {
         <a className="brand" href="#top" onClick={closeMenu} aria-label="Business Plan 2026 home"><span className="brand-mark"><Sparkles size={18} /></span><span><b>VENTURE X 2026</b><small>BIT MESRA - NOIDA CAMPUS · 2026</small></span></a>
         <button className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)} aria-label={menuOpen ? 'Close menu' : 'Open menu'} aria-expanded={menuOpen}>{menuOpen ? <X /> : <Menu />}</button>
        <nav className={menuOpen ? 'main-nav is-open' : 'main-nav'} aria-label="Main navigation">
-  <a href="#about" onClick={closeMenu}>About Us</a>
+  <a href="#about" onClick={closeMenu}>About</a>
   <a href="#challenge" onClick={closeMenu}>Challenge</a>
   <a href="#prizes" onClick={closeMenu}>Prizes</a>
-  <a href="#timeline" onClick={closeMenu}>Rules</a>
+  <a href="#timeline" onClick={closeMenu}>Timeline</a>
   <a href="#location" onClick={closeMenu}>Location</a>
+
+  <a href="/sponsors" onClick={closeMenu}>Sponsors</a>
 
   <a className="nav-cta" href={event.registrationUrl} onClick={closeMenu}>
     Register <MoveUpRight size={15} />
