@@ -43,9 +43,9 @@ export default function Sponsors() {
             generation of ideas.
           </h1>
           <p>
-            Partner with a platform that brings together ambitious
-            student innovators, industry leaders and people who believe
-            in turning ideas into impact.
+            VentureX 2026 invites forward-looking organizations, investors, and institutions to partner with a platform that supports serious entrepreneurship, responsible innovation, and real-world impact.
+ It is a venture discovery and validation ecosystem that brings together founders, mentors, investors, and industry leaders committed to building sustainable and commercially viable businesses.
+By partnering with Venture X, your organization becomes part of a community shaping how ideas move from concept to credible ventures.
           </p>
         </div>
 
