@@ -99,7 +99,7 @@ function App() {
   <a href="#timeline" onClick={closeMenu}>Timeline</a>
   <a href="#location" onClick={closeMenu}>Location</a>
 
-  <a href="/sponsors" onClick={closeMenu}>Sponsors</a>
+  <a href="/#/sponsors" onClick={closeMenu}>Sponsors</a>
 
   <a className="nav-cta" href={event.registrationUrl} onClick={closeMenu}>
     Register <MoveUpRight size={15} />
