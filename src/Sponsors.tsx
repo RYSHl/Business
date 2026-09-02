@@ -30,13 +30,13 @@ export default function Sponsors() {
         </a>
 
         <nav className="sponsors-nav">
-          <a href="/">Home</a>
-          <a href="/#about">About</a>
-          <a href="/#challenge">Challenge</a>
-          <a href="/#prizes">Prizes</a>
-          <a href="/#timeline">Rules</a>
-          <a href="/#location">Location</a>
-          <a href="/sponsors" className="active">Sponsors</a>
+  <a href="/Business/">Home</a>
+  <a href="/Business/#about">About Us</a>
+  <a href="/Business/#challenge">Challenge</a>
+  <a href="/Business/#prizes">Prizes</a>
+  <a href="/Business/#timeline">Rules</a>
+  <a href="/Business/#location">Location</a>
+  <a href="/Business/#/sponsors" className="active">Sponsors</a>
 
           <a
             className="sponsors-register"
