@@ -4,10 +4,10 @@ import App from './App.tsx';
 import Sponsors from './Sponsors.tsx';
 import './index.css';
 
-const path = window.location.pathname;
+const isSponsorsPage = window.location.hash === '#/sponsors';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    {path === '/sponsors' ? <Sponsors /> : <App />}
+    {isSponsorsPage ? <Sponsors /> : <App />}
   </StrictMode>
 );
