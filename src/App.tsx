@@ -147,7 +147,7 @@ function App() {
       </div>
 
       <span>Coming soon</span>
-      <h3>Mentors</h3>
+      <h3>ORGANIZING COMMITTEE</h3>
 
       <p>Profiles and participation details will be added here.</p>
 
