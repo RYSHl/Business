@@ -443,5 +443,5 @@ export default function Sponsors() {
     </div>
   );
 }
-```
+
 
