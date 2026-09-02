@@ -115,7 +115,39 @@ function App() {
 
         <section id="prizes" className="prizes section-pad section-light"><div className="prize-heading"><SectionLabel>The reward</SectionLabel><h2>Ideas worth<br /><span>investing in.</span></h2><p>Bring the plan. Earn the platform. Take your first step toward BIT-NISHAN.</p></div><div className="prize-list"><div className="prize-card first"><span className="prize-place">01 / FIRST PRIZE</span><Trophy size={39} strokeWidth={1.2} /><b>₹31,000</b><small>For the boldest business plan</small></div><div className="prize-card second"><span className="prize-place">02 / SECOND PRIZE</span><Award size={35} strokeWidth={1.2} /><b>₹21,000</b><small>For a plan with momentum</small></div><div className="prize-card third"><span className="prize-place">03 / THIRD PRIZE</span><Target size={32} strokeWidth={1.2} /><b>₹11,000</b><small>For an idea with promise</small></div></div></section>
 
-        <section className="people section-pad"><div className="section-intro intro-row"><div><SectionLabel>The room</SectionLabel><h2>Meet the minds<br /><span>behind the next big thing.</span></h2></div><p>Investors, mentors and judges who will help ideas get sharper. Profiles will be announced soon.</p></div><div className="people-grid">{['Investors', 'ORGANIZING COMMITTEE', 'Judges'].map((label, index) => <div className="person-card" key={label}><div className="person-orb">{index === 0 ? <BarChart3 /> : index === 1 ? <Lightbulb /> : <ShieldCheck />}</div><span>Coming soon</span><h3>{label}</h3><p>Profiles and participation details will be added here.</p><button aria-label={`Learn more about ${label}`}>Learn more <ArrowRight size={16} /></button></div>)}</div></section>
+       <section className="people section-pad">
+  <div className="section-intro intro-row">
+    <div>
+      <SectionLabel>The room</SectionLabel>
+      <h2>
+        Meet the minds<br />
+        <span>behind the next big thing.</span>
+      </h2>
+    </div>
+
+    <p>
+      Experienced mentors who will help ideas get sharper.
+      Profiles will be announced soon.
+    </p>
+  </div>
+
+  <div className="people-grid">
+    <div className="person-card">
+      <div className="person-orb">
+        <Lightbulb />
+      </div>
+
+      <span>Coming soon</span>
+      <h3>Mentors</h3>
+
+      <p>Profiles and participation details will be added here.</p>
+
+      <button aria-label="Learn more about Mentors">
+        Learn more <ArrowRight size={16} />
+      </button>
+    </div>
+  </div>
+</section>
 
        <section id="timeline" className="timeline section-pad section-dark">
   <div className="section-intro">
