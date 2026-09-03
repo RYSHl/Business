@@ -62,6 +62,7 @@ function SectionLabel({ children }: { children: ReactNode }) {
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+  const [activeInfo, setActiveInfo] = useState<string | null>(null);
 
   useEffect(() => {
     const target = new Date('2026-10-28T10:00:00+05:30').getTime();
@@ -115,8 +116,253 @@ function App() {
           <div className="countdown-card"><div><span className="eyebrow">THE CLOCK IS RUNNING</span><b>Until the big idea day</b></div><div className="countdown"><strong>{String(timeLeft.days).padStart(3, '0')}<small>days</small></strong><i>:</i><strong>{String(timeLeft.hours).padStart(2, '0')}<small>hrs</small></strong><i>:</i><strong>{String(timeLeft.minutes).padStart(2, '0')}<small>min</small></strong><i>:</i><strong>{String(timeLeft.seconds).padStart(2, '0')}<small>sec</small></strong></div></div>
         </section>
 
-        <section id="about" className="about section-pad section-light"><div className="section-intro"><SectionLabel>The opportunity</SectionLabel><h2>A VENTURE X 2026 is<br /><span>just the beginning.</span></h2></div><div className="about-copy"><p className="lead-copy">VentureX 2026 is a national-level sustainable innovation and startup pitch competition by the Entrepreneurship Club, BIT Mesra – Noida Campus.
-</p><p>A platform for young innovators to pitch ideas, connect with industry experts, gain valuable feedback, and develop innovative solutions to real-world sustainability challenges.</p><a className="text-link" href="#challenge">Discover the challenge <ArrowRight size={16} /></a></div><div className="about-stats"><div><b>01</b><span>Big idea<br />to business</span></div><div><b>04</b><span>People<br />per team</span></div><div><b>IN</b><span>Across India<br />invited</span></div></div></section>
+       <section id="about" className="about section-pad section-light">
+
+  <div className="section-intro">
+    <SectionLabel>The opportunity</SectionLabel>
+
+    <h2>
+      A VENTURE X 2026 is<br />
+      <span>just the beginning.</span>
+    </h2>
+  </div>
+
+
+  <div className="about-copy">
+
+    <p className="lead-copy">
+      VentureX 2026 is a national-level sustainable innovation and
+      startup pitch competition by the Entrepreneurship Club,
+      BIT Mesra – Noida Campus.
+    </p>
+
+    <p>
+      A platform for young innovators to pitch ideas, connect with
+      industry experts, gain valuable feedback, and develop
+      innovative solutions to real-world sustainability challenges.
+    </p>
+
+  </div>
+
+
+  {/* ABOUT ORGANISATIONS */}
+
+  <div className="about-info-grid">
+
+    {/* BIT MESRA */}
+
+    <article className="about-info-card">
+
+      <div className="about-info-number">01</div>
+
+      <span className="about-info-label">
+        INSTITUTION
+      </span>
+
+      <h3>BIT Mesra</h3>
+
+      <p>
+        Learn about Birla Institute of Technology, its legacy,
+        academic environment and role in innovation.
+      </p>
+
+      <button
+        className="about-read-more"
+        onClick={() => setActiveInfo('mesra')}
+      >
+        Read more
+        <ArrowRight size={16} />
+      </button>
+
+    </article>
+
+
+    {/* BIT NOIDA */}
+
+    <article className="about-info-card">
+
+      <div className="about-info-number">02</div>
+
+      <span className="about-info-label">
+        CAMPUS
+      </span>
+
+      <h3>BIT Noida</h3>
+
+      <p>
+        Discover BIT Mesra's Noida Campus and its academic,
+        professional and innovation-focused environment.
+      </p>
+
+      <button
+        className="about-read-more"
+        onClick={() => setActiveInfo('noida')}
+      >
+        Read more
+        <ArrowRight size={16} />
+      </button>
+
+    </article>
+
+
+    {/* ENTREPRENEURSHIP CLUB */}
+
+    <article className="about-info-card">
+
+      <div className="about-info-number">03</div>
+
+      <span className="about-info-label">
+        STUDENT COMMUNITY
+      </span>
+
+      <h3>Entrepreneurship Club</h3>
+
+      <p>
+        Explore the Entrepreneurship Club at BIT Noida and
+        its work in building an entrepreneurial ecosystem.
+      </p>
+
+      <button
+        className="about-read-more"
+        onClick={() => setActiveInfo('club')}
+      >
+        Read more
+        <ArrowRight size={16} />
+      </button>
+
+    </article>
+
+  </div>
+
+
+  {/* EXISTING STATS */}
+
+  <div className="about-stats">
+
+    <div>
+      <b>01</b>
+      <span>
+        Big idea<br />
+        to business
+      </span>
+    </div>
+
+    <div>
+      <b>04</b>
+      <span>
+        People<br />
+        per team
+      </span>
+    </div>
+
+    <div>
+      <b>IN</b>
+      <span>
+        Across India<br />
+        invited
+      </span>
+    </div>
+
+  </div>
+
+
+  {/* INFORMATION POPUP */}
+
+  {activeInfo && (
+    <div
+      className="info-modal-backdrop"
+      onClick={() => setActiveInfo(null)}
+    >
+
+      <div
+        className="info-modal"
+        onClick={(e) => e.stopPropagation()}
+      >
+
+        <button
+          className="info-modal-close"
+          onClick={() => setActiveInfo(null)}
+          aria-label="Close"
+        >
+          <X size={22} />
+        </button>
+
+
+        {activeInfo === 'mesra' && (
+          <>
+            <span className="info-modal-label">
+              INSTITUTION
+            </span>
+
+            <h3>BIT Mesra</h3>
+
+            <div className="info-modal-content">
+              <p>
+                PASTE YOUR COMPLETE BIT MESRA INFORMATION HERE.
+              </p>
+
+              <p>
+                You can add multiple paragraphs here. The popup
+                will automatically handle long information and
+                allow the user to scroll through it.
+              </p>
+            </div>
+          </>
+        )}
+
+
+        {activeInfo === 'noida' && (
+          <>
+            <span className="info-modal-label">
+              CAMPUS
+            </span>
+
+            <h3>BIT Noida</h3>
+
+            <div className="info-modal-content">
+              <p>
+                PASTE YOUR COMPLETE BIT NOIDA INFORMATION HERE.
+              </p>
+
+              <p>
+                Add the full information about the Noida Campus,
+                its facilities, academics, activities and other
+                details here.
+              </p>
+            </div>
+          </>
+        )}
+
+
+        {activeInfo === 'club' && (
+          <>
+            <span className="info-modal-label">
+              STUDENT COMMUNITY
+            </span>
+
+            <h3>Entrepreneurship Club</h3>
+
+            <div className="info-modal-content">
+              <p>
+                PASTE YOUR COMPLETE ENTREPRENEURSHIP CLUB
+                INFORMATION HERE.
+              </p>
+
+              <p>
+                Add the full information about the club, its
+                activities, initiatives, achievements and vision
+                here.
+              </p>
+            </div>
+          </>
+        )}
+
+      </div>
+
+    </div>
+  )}
+
+</section>
 
         <section id="challenge" className="challenge section-pad"><div className="section-intro intro-row"><div><SectionLabel>The challenge</SectionLabel><h2>WHAT WILL YOU SOLVE.</h2></div><p>Three lanes. One opportunity to think bigger. Official challenge topics will be released to registered participants.</p></div><div className="topic-grid">{topics.map(({ number, icon: Icon, title, copy }) => <article className="topic-card" key={number}><span className="card-number">{number}</span><Icon size={29} strokeWidth={1.4} /><h3>{title}</h3><p>{copy}</p><span className="card-arrow"><MoveUpRight size={17} /></span></article>)}</div></section>
 
