@@ -298,14 +298,12 @@ function App() {
 
             <div className="info-modal-content">
               <p>
-                PASTE YOUR COMPLETE BIT MESRA INFORMATION HERE.
+                Birla Institute of Technology, Mesra (BIT Mesra), a Deemed to be University, is a premier technical and research institution in Ranchi, Jharkhand. Established in 1955 by B.M. Birla, it is renowned for excellence in engineering. technology, management, and applied sciences. The 780- acre campus offers state-of-the-art infrastructure and research rch facilities. BIT Mesra provides undergraduate, postgraduate, and doctoral programs in engineering, architecture, pharmacy, management, data science, and computer applications ications. Accredited by NBA and recognized by UGC, it fosters innovation, entrepreneurship, and industry collaboration. With a strong academic and research focus,
+
+BIT Mesra continues to shape future leaders in technology and innovation.
               </p>
 
-              <p>
-                You can add multiple paragraphs here. The popup
-                will automatically handle long information and
-                allow the user to scroll through it.
-              </p>
+              
             </div>
           </>
         )}
