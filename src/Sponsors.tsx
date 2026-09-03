@@ -234,41 +234,260 @@ By partnering with Venture X, your organization becomes part of a community shap
 
 
       {/* PARTNER TYPES */}
-      <section className="partner-types">
+            </section>
+
+
+      {/* SPONSORSHIP PACKAGES */}
+      <section className="sponsorship-packages">
+
         <div className="sponsors-section-heading">
-          <span>03 / WHO WE PARTNER WITH</span>
+          <span>03 / SPONSORSHIP PACKAGES</span>
           <h2>
-            Built for organizations
+            Choose your level.
             <br />
-            <strong>that believe in ideas.</strong>
+            <strong>Shape the impact.</strong>
           </h2>
+          <p>
+            Choose a partnership package that gives your organization
+            meaningful visibility, engagement and access to the Venture X
+            innovation ecosystem.
+          </p>
         </div>
 
-        <div className="partner-type-grid">
 
-          <div>
-            <Building2 />
-            <h3>Corporates & Industry Leaders</h3>
-          </div>
+        <div className="package-grid">
 
-          <div>
-            <BriefcaseBusiness />
-            <h3>Investors & Angel Networks</h3>
-          </div>
+          {/* TITLE SPONSOR */}
+          <article className="package-card package-featured">
 
-          <div>
-            <Lightbulb />
-            <h3>Innovation-Led Enterprises</h3>
-          </div>
+            <div className="package-badge">TITLE SPONSOR</div>
 
-          <div>
-            <Target />
-            <h3>Sustainability Organizations</h3>
-          </div>
+            <div className="package-price">₹50,000</div>
+
+            <small>EVENT POWERED BY</small>
+
+            <div className="package-line" />
+
+            <ul>
+              <li>Event title association — "Powered by"</li>
+              <li>Largest logo placement across event branding</li>
+              <li>Exclusive stall / exhibition space</li>
+              <li>Speaking opportunity</li>
+              <li>Jury / panel representation*</li>
+              <li>Stage branding & backdrop visibility</li>
+              <li>Social media mega campaign</li>
+              <li>Website banner & partner recognition</li>
+              <li>Logo on certificates & merchandise</li>
+              <li>Press mentions & media coverage</li>
+              <li>Email campaign visibility</li>
+              <li>Recruitment / interaction desk</li>
+              <li>Product / solution showcase opportunity</li>
+              <li>VIP seating & special memento</li>
+              <li>20 complimentary passes</li>
+            </ul>
+
+          </article>
+
+
+          {/* GOLD SPONSOR */}
+          <article className="package-card">
+
+            <div className="package-badge">GOLD SPONSOR</div>
+
+            <div className="package-price">₹30,000</div>
+
+            <div className="package-line" />
+
+            <ul>
+              <li>Large logo on event branding</li>
+              <li>Dedicated stall space</li>
+              <li>Stage branding</li>
+              <li>Social media mentions</li>
+              <li>Logo on certificates</li>
+              <li>Standee at venue</li>
+              <li>Speaking / expert mention</li>
+              <li>Website recognition</li>
+              <li>Recruitment / interaction desk</li>
+              <li>10 complimentary passes</li>
+            </ul>
+
+          </article>
+
+
+          {/* SILVER SPONSOR */}
+          <article className="package-card">
+
+            <div className="package-badge">SILVER SPONSOR</div>
+
+            <div className="package-price">₹20,000</div>
+
+            <div className="package-line" />
+
+            <ul>
+              <li>Medium logo on event branding</li>
+              <li>Stall space</li>
+              <li>Social media mentions</li>
+              <li>Logo on certificates</li>
+              <li>Website recognition</li>
+              <li>Standee at venue</li>
+              <li>6 complimentary passes</li>
+            </ul>
+
+          </article>
+
+
+          {/* ASSOCIATE SPONSOR */}
+          <article className="package-card">
+
+            <div className="package-badge">ASSOCIATE SPONSOR</div>
+
+            <div className="package-price">₹10,000</div>
+
+            <div className="package-line" />
+
+            <ul>
+              <li>Logo on event branding</li>
+              <li>Social media mentions</li>
+              <li>Website recognition</li>
+              <li>Standee at venue</li>
+              <li>Logo on certificates</li>
+              <li>4 complimentary passes</li>
+            </ul>
+
+          </article>
 
         </div>
+
+
+        {/* CUSTOM PARTNERSHIPS */}
+        <div className="custom-partnerships">
+
+          <div className="custom-heading">
+
+            <span>CUSTOM OPPORTUNITIES</span>
+
+            <h3>
+              Partner with us
+              <br />
+              in your own way.
+            </h3>
+
+            <p>
+              We also welcome focused partnerships that align with your
+              organization's expertise, products, services or sustainability
+              goals.
+            </p>
+
+          </div>
+
+
+          <div className="custom-grid">
+
+            <div>
+              <span>01</span>
+              <h4>Challenge Track Partner</h4>
+              <p>
+                Associate your organization with a specific Venture X
+                challenge theme and support innovative solutions.
+              </p>
+            </div>
+
+            <div>
+              <span>02</span>
+              <h4>AI & Technology Partner</h4>
+              <p>
+                Support the AI Devices theme and showcase technology,
+                tools or solutions that enable smarter innovation.
+              </p>
+            </div>
+
+            <div>
+              <span>03</span>
+              <h4>Energy & Sustainability Partner</h4>
+              <p>
+                Collaborate around energy conservation, efficiency and
+                sustainable solutions for the future.
+              </p>
+            </div>
+
+            <div>
+              <span>04</span>
+              <h4>Water & Resources Partner</h4>
+              <p>
+                Support innovations focused on responsible water use,
+                conservation and sustainable resource management.
+              </p>
+            </div>
+
+            <div>
+              <span>05</span>
+              <h4>Pollution Prevention Partner</h4>
+              <p>
+                Champion ideas that reduce pollution, waste and
+                environmental impact.
+              </p>
+            </div>
+
+            <div>
+              <span>06</span>
+              <h4>Prize Sponsor</h4>
+              <p>
+                Sponsor a prize or recognition category and connect
+                your organization with exceptional student ideas.
+              </p>
+            </div>
+
+            <div>
+              <span>07</span>
+              <h4>Startup Ecosystem Partner</h4>
+              <p>
+                Connect with emerging founders, student innovators,
+                mentors and the wider startup ecosystem.
+              </p>
+            </div>
+
+            <div>
+              <span>08</span>
+              <h4>Media & Outreach Partner</h4>
+              <p>
+                Help amplify Venture X 2026 through media coverage,
+                digital storytelling and communication partnerships.
+              </p>
+            </div>
+
+            <div>
+              <span>09</span>
+              <h4>Knowledge & Mentorship Partner</h4>
+              <p>
+                Bring industry expertise through workshops, mentoring,
+                masterclasses, panels or expert sessions.
+              </p>
+            </div>
+
+            <div>
+              <span>10</span>
+              <h4>Experience Partner</h4>
+              <p>
+                Collaborate through food, printing, gifting, hospitality
+                or other event-support partnerships.
+              </p>
+            </div>
+
+          </div>
+
+
+          <p className="package-note">
+            * Sponsorship benefits and custom collaborations are subject
+            to organizer discussion, availability and mutual alignment.
+          </p>
+
+        </div>
+
       </section>
 
+
+      {/* PARTNER TYPES */}
+      <section className="partner-types">
 
       {/* PREVIOUS ASSOCIATIONS */}
       <section className="previous-partners">
