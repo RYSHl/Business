@@ -400,8 +400,7 @@ In addition, the club maintains strong connections with entrepreneurs, startup f
     </span>
 
     <h3>Dr. Ujjala</h3>
-
-    <p>Dr. TPO</p>
+    <h3>Dr. TPO</h3>
   </div>
 
 
