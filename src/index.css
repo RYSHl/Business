@@ -685,6 +685,252 @@ button { font:inherit; }
   }
 
 }
+
+/* =========================================================
+   ABOUT — INSTITUTION INFO CARDS
+========================================================= */
+
+.about-info-grid {
+  width: 100%;
+  margin: 70px 0 80px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+.about-info-card {
+  min-height: 310px;
+  padding: 32px;
+
+  display: flex;
+  flex-direction: column;
+
+  background: rgba(255, 255, 255, 0.18);
+
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+
+  transition:
+    transform .3s ease,
+    background .3s ease;
+}
+
+.about-info-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.about-info-number {
+  margin-bottom: 55px;
+
+  color: var(--green);
+
+  font: 700 13px 'DM Mono', monospace;
+  letter-spacing: .12em;
+}
+
+.about-info-label {
+  margin-bottom: 10px;
+
+  color: var(--green);
+
+  font: 700 10px 'DM Mono', monospace;
+  letter-spacing: .14em;
+}
+
+.about-info-card h3 {
+  margin: 0 0 14px;
+
+  color: var(--ink);
+
+  font: 600 30px/1 'Oswald', sans-serif;
+
+  text-transform: uppercase;
+}
+
+.about-info-card p {
+  margin: 0;
+
+  max-width: 330px;
+
+  color: var(--muted);
+
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.about-read-more {
+  margin-top: auto;
+  padding: 18px 0 0;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+
+  width: fit-content;
+
+  border: 0;
+  border-top: 1px solid var(--line);
+
+  background: transparent;
+
+  color: var(--ink);
+
+  font: 700 10px 'DM Mono', monospace;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+
+  cursor: pointer;
+}
+
+.about-read-more svg {
+  color: var(--green);
+  transition: transform .2s ease;
+}
+
+.about-read-more:hover svg {
+  transform: translateX(5px);
+}
+
+
+/* =========================================================
+   ABOUT INFORMATION POPUP
+========================================================= */
+
+.info-modal-backdrop {
+  position: fixed;
+  inset: 0;
+
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 30px;
+
+  background: rgba(24, 40, 58, .72);
+
+  backdrop-filter: blur(8px);
+}
+
+.info-modal {
+  position: relative;
+
+  width: min(850px, 100%);
+  max-height: 80vh;
+
+  overflow-y: auto;
+
+  padding: 55px;
+
+  background: var(--white);
+
+  border: 1px solid var(--line);
+
+  box-shadow: 0 30px 80px rgba(24, 40, 58, .25);
+}
+
+.info-modal-close {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+
+  width: 42px;
+  height: 42px;
+
+  display: grid;
+  place-items: center;
+
+  border: 1px solid var(--line);
+
+  background: transparent;
+
+  color: var(--ink);
+
+  cursor: pointer;
+}
+
+.info-modal-close:hover {
+  background: var(--green);
+  color: white;
+}
+
+.info-modal-label {
+  display: block;
+
+  margin-bottom: 15px;
+
+  color: var(--green);
+
+  font: 700 11px 'DM Mono', monospace;
+  letter-spacing: .15em;
+}
+
+.info-modal h3 {
+  margin: 0 0 35px;
+
+  color: var(--ink);
+
+  font: 600 clamp(42px, 6vw, 72px)/.95 'Oswald', sans-serif;
+
+  text-transform: uppercase;
+}
+
+.info-modal-content {
+  border-top: 1px solid var(--line);
+
+  padding-top: 28px;
+}
+
+.info-modal-content p {
+  margin: 0 0 22px;
+
+  color: var(--muted);
+
+  font-size: 15px;
+  line-height: 1.85;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 800px) {
+
+  .about-info-grid {
+    grid-template-columns: 1fr;
+
+    margin-top: 50px;
+  }
+
+  .about-info-card {
+    min-height: 270px;
+  }
+
+  .about-info-number {
+    margin-bottom: 40px;
+  }
+
+  .info-modal-backdrop {
+    padding: 15px;
+  }
+
+  .info-modal {
+    max-height: 88vh;
+    padding: 40px 25px 30px;
+  }
+
+  .info-modal h3 {
+    font-size: 45px;
+    padding-right: 30px;
+  }
+
+}
 @keyframes float { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-14px); } }
 @media (max-width: 800px) { .section-pad { padding:78px 7vw; }.site-header { height:70px; padding:0 7vw; }.menu-toggle { display:block; }.main-nav { display:none; position:absolute; top:70px; left:0; right:0; padding:25px 7vw 30px; background:var(--paper); flex-direction:column; align-items:flex-start; gap:22px; box-shadow:0 10px 20px #07192f18; }.main-nav.is-open { display:flex; }.hero { min-height:850px; display:block; padding-top:70px; }.hero h1 { font-size:clamp(67px,19vw,115px); }.hero-art { height:350px; margin-top:28px; }.ring-large { width:280px; height:280px; }.ring-small { width:190px; height:190px; }.countdown-card { left:7vw; right:7vw; bottom:24px; padding:16px; display:block; }.countdown { margin-top:13px; justify-content:space-between; }.countdown strong { font-size:19px; }.hero-meta { flex-direction:column; gap:11px; margin-top:35px; }.about,.participants,.prizes,.timeline,.location,.organizers { grid-template-columns:1fr; gap:44px; }.about-copy { padding:0; }.about-stats { gap:6px; }.about-stats div { gap:8px; }.about-stats b { font-size:32px; }.about-stats span { font-size:10px; }.intro-row { display:block; }.intro-row > p { margin-top:22px; }.topic-grid,.people-grid { grid-template-columns:1fr; }.topic-card { min-height:240px; }.participant-visual { min-height:280px; }.participant-copy h2 { font-size:58px; }.prize-list { grid-template-columns:1fr 1fr; }.prize-card.first { grid-row:auto; grid-column:1/-1; min-height:280px; }.prize-card { min-height:190px; padding:20px; }.prize-card b { font-size:39px; }.location-map { min-height:290px; }.register { grid-template-columns:1fr; gap:25px; }.register-stamp { display:none; }.register .button { justify-self:start; }.editable-note { right:auto; left:7vw; bottom:14px; }.org-list { grid-template-columns:1fr 1fr; }.contact { grid-template-columns:1fr; gap:36px; }.contact-fields { grid-template-columns:1fr; }.contact h2 { font-size:48px; }.footer-top,.footer-bottom { align-items:flex-start; flex-direction:column; }.footer-bottom div { flex-wrap:wrap; gap:12px; }.socials { margin-top:8px; } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior:auto; } *,*:before,*:after { animation-duration:.01ms!important; transition-duration:.01ms!important; } }
