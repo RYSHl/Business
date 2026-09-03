@@ -319,13 +319,7 @@ BIT Mesra continues to shape future leaders in technology and innovation.
 
             <div className="info-modal-content">
               <p>
-                PASTE YOUR COMPLETE BIT NOIDA INFORMATION HERE.
-              </p>
-
-              <p>
-                Add the full information about the Noida Campus,
-                its facilities, academics, activities and other
-                details here.
+               Birla Institute of Technology, Noida (BIT Noida), an off- campus centre of BIT Mesra, Ranchi, is a distinguished institution known for academic excellence and professional education in the National Capital Region. Established with the vision to extend BIT Mesra's legacy, BIT Noida offers high-quality undergraduate, postgraduate, and doctoral programs in computer a programs in computer applications, busines ess management, and related disciplines. The campus boasts modern infrastructure, industry-aligned curriculum, and experienced faculty committed to fostering innovation, critical thinking, and leadership. With strong industry linkages and a focus on research, entrepreneurship, and holistic development, BIT Noida stands as a hub for aspiring professionals to thrive in a competitive global environment.
               </p>
             </div>
           </>
@@ -342,14 +336,13 @@ BIT Mesra continues to shape future leaders in technology and innovation.
 
             <div className="info-modal-content">
               <p>
-                PASTE YOUR COMPLETE ENTREPRENEURSHIP CLUB
-                INFORMATION HERE.
-              </p>
+                TheEntrepreneurship Clubof Birla Institute of Technology, Mesra - Noida Campus is one of the institute's most active student-driven organizations, fostering innovation, leadership, and entrepreneurial thinking. Led by dedicated coordinators and members from diverse academic backgrounds, the club provides a platform where ideas are transformed into opportunities and future entrepreneurs are nurtured. The club organizes a variety of impactful activities including national-level competitions, business plan challenges, startup expos, innovation workshops, case study competitions, quizzes, panel discussions, and networking sessions.
 
-              <p>
-                Add the full information about the club, its
-                activities, initiatives, achievements and vision
-                here.
+It also conducts industrial visits to leading organizations, offering students real-world exposure
+
+to business operations, emerging technologies, and corporate practices.
+
+In addition, the club maintains strong connections with entrepreneurs, startup founders, investors, and industry professionals, enabling students to gain insights through guest lectures, mentoring sessions, and interactive workshops, thereby strengthening industry-academia collaboration and practical learning.
               </p>
             </div>
           </>
