@@ -140,38 +140,45 @@ function App() {
     </p>
   </div>
 
-  <div className="people-grid">
-  <div className="person-card organizing-card">
+ <div className="committee-grid">
 
-    <div className="person-orb">
-      <Lightbulb />
-    </div>
+  <div className="committee-card">
+    <div className="committee-number">01</div>
 
-    <span>ORGANIZING COMMITTEE</span>
+    <span className="committee-title">CHAIRMAN</span>
 
-    <div className="committee-list">
+    <h3>Dr. Vikas Tripathi</h3>
 
-      <div className="committee-role">
-        <strong>Chairman</strong>
-        <p>Dr. Vikas Tripathi</p>
-        <small>Director, BIT Noida</small>
-      </div>
-
-      <div className="committee-role">
-        <strong>Organizing Secretary</strong>
-        <p>Dr. Ujjala</p>
-        <small>Dr. TPO</small>
-      </div>
-
-      <div className="committee-role">
-        <strong>Student Conveners</strong>
-        <p>Shristi Kashyap</p>
-        <p>Dhrubajyoti Paul</p>
-      </div>
-
-    </div>
-
+    <p>Director, BIT Noida</p>
   </div>
+
+
+  <div className="committee-card">
+    <div className="committee-number">02</div>
+
+    <span className="committee-title">
+      ORGANIZING SECRETARY
+    </span>
+
+    <h3>Dr. Ujjala</h3>
+
+    <p>Dr. TPO</p>
+  </div>
+
+
+  <div className="committee-card">
+    <div className="committee-number">03</div>
+
+    <span className="committee-title">
+      STUDENT CONVENERS
+    </span>
+
+    <h3>Shristi Kashyap</h3>
+    <h3>Dhrubajyoti Paul</h3>
+
+    <p>Venture X 2026</p>
+  </div>
+
 </div>
 </section>
 
