@@ -233,8 +233,7 @@ By partnering with Venture X, your organization becomes part of a community shap
       </section>
 
 
-      {/* PARTNER TYPES */}
-            </section>
+      
 
 
       {/* SPONSORSHIP PACKAGES */}
@@ -486,8 +485,7 @@ By partnering with Venture X, your organization becomes part of a community shap
       </section>
 
 
-      {/* PARTNER TYPES */}
-      <section className="partner-types">
+     
 
       {/* PREVIOUS ASSOCIATIONS */}
       <section className="previous-partners">
