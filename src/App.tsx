@@ -141,21 +141,38 @@ function App() {
   </div>
 
   <div className="people-grid">
-    <div className="person-card">
-      <div className="person-orb">
-        <Lightbulb />
+  <div className="person-card organizing-card">
+
+    <div className="person-orb">
+      <Lightbulb />
+    </div>
+
+    <span>ORGANIZING COMMITTEE</span>
+
+    <div className="committee-list">
+
+      <div className="committee-role">
+        <strong>Chairman</strong>
+        <p>Dr. Vikas Tripathi</p>
+        <small>Director, BIT Noida</small>
       </div>
 
-      <span>Coming soon</span>
-      <h3>ORGANIZING COMMITTEE</h3>
+      <div className="committee-role">
+        <strong>Organizing Secretary</strong>
+        <p>Dr. Ujjala</p>
+        <small>Dr. TPO</small>
+      </div>
 
-      <p>Profiles and participation details will be added here.</p>
+      <div className="committee-role">
+        <strong>Student Conveners</strong>
+        <p>Shristi Kashyap</p>
+        <p>Dhrubajyoti Paul</p>
+      </div>
 
-      <button aria-label="Learn more about Mentors">
-        Learn more <ArrowRight size={16} />
-      </button>
     </div>
+
   </div>
+</div>
 </section>
 
        <section id="timeline" className="timeline section-pad section-dark">
