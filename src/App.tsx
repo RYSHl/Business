@@ -135,8 +135,10 @@ function App() {
     </div>
 
     <p>
-      Experienced mentors who will help ideas get sharper.
-      Profiles will be announced soon.
+      <p>
+  Meet the faculty and student leaders bringing Venture X 2026
+  together at BIT Mesra – Noida Campus.
+</p>
     </p>
   </div>
 
