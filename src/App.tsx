@@ -91,7 +91,18 @@ function App() {
   return (
     <div className="site-shell">
       <header className="site-header">
-        <a className="brand" href="#top" onClick={closeMenu} aria-label="Business Plan 2026 home"><span className="brand-mark"><Sparkles size={18} /></span><span><b>VENTURE X 2026</b><small>BIT MESRA - NOIDA CAMPUS · 2026</small></span></a>
+        <a className="brand" href="#top" onClick={closeMenu} aria-label="Venture X 2026 home">
+  <img
+    src="/Business/Venture%20X%20logo.png"
+    alt="Venture X 2026"
+    className="brand-logo"
+  />
+
+  <span>
+    <b>VENTURE X 2026</b>
+    <small>BIT MESRA - NOIDA CAMPUS · 2026</small>
+  </span>
+</a>
         <button className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)} aria-label={menuOpen ? 'Close menu' : 'Open menu'} aria-expanded={menuOpen}>{menuOpen ? <X /> : <Menu />}</button>
        <nav className={menuOpen ? 'main-nav is-open' : 'main-nav'} aria-label="Main navigation">
   <a href="#about" onClick={closeMenu}>About us</a>
