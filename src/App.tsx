@@ -472,6 +472,78 @@ In addition, the club maintains strong connections with entrepreneurs, startup f
 
 </section>
 
+
+
+        {/* COMPETITION FLOW */}
+<section id="flow" className="competition-flow section-pad">
+  <div className="flow-heading">
+    <SectionLabel>Competition flow</SectionLabel>
+
+    <h2>
+      Your Venture X journey
+    </h2>
+
+    <p>
+      Idea → Business Plan → Pitch → Impact. Here's how the five stages unfold.
+    </p>
+  </div>
+
+  <div className="flow-timeline">
+
+    <div className="flow-item">
+      <div className="flow-number">01</div>
+      <div className="flow-card">
+        <h3>Idea Submission</h3>
+        <p>
+          Submit a 300–500 word summary of your business idea.
+        </p>
+      </div>
+    </div>
+
+    <div className="flow-item">
+      <div className="flow-number">02</div>
+      <div className="flow-card">
+        <h3>Shortlisting</h3>
+        <p>
+          Promising ideas move on to the next stage.
+        </p>
+      </div>
+    </div>
+
+    <div className="flow-item">
+      <div className="flow-number">03</div>
+      <div className="flow-card">
+        <h3>Business Plan Presentation</h3>
+        <p>
+          Present your detailed business plan before the judging panel.
+        </p>
+      </div>
+    </div>
+
+    <div className="flow-item">
+      <div className="flow-number">04</div>
+      <div className="flow-card">
+        <h3>Final Pitch</h3>
+        <p>
+          Top teams take the stage and pitch their venture.
+        </p>
+      </div>
+    </div>
+
+    <div className="flow-item">
+      <div className="flow-number">05</div>
+      <div className="flow-card">
+        <h3>Connect · Learn · Grow</h3>
+        <p>
+          Interact with entrepreneurs, investors and mentors, and explore opportunities.
+        </p>
+        <span className="flow-final">Final stage</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
         <section id="challenge" className="challenge section-pad"><div className="section-intro intro-row"><div><SectionLabel>The challenge</SectionLabel><h2>WHAT WILL YOU SOLVE.</h2></div><p>Three lanes. One opportunity to think bigger. Official challenge topics will be released to registered participants.</p></div><div className="topic-grid">{topics.map(({ number, icon: Icon, title, copy }) => <article className="topic-card" key={number}><span className="card-number">{number}</span><Icon size={29} strokeWidth={1.4} /><h3>{title}</h3><p>{copy}</p><span className="card-arrow"><MoveUpRight size={17} /></span></article>)}</div></section>
 
         <section className="participants section-pad section-dark"><div className="participant-visual"><div className="visual-grid" /><Users size={62} strokeWidth={1} /><div className="four-count">04</div><span>people in<br />each team</span></div><div className="participant-copy"><SectionLabel>Who should enter</SectionLabel><h2>Ideas are better<br /><span>when shared.</span></h2><p>We’re inviting teams from B-Schools, Engineering Colleges, Universities and Higher Education Institutions from across India.</p><div className="check-list"><span><Check size={16} /> Student-led teams</span><span><Check size={16} /> Four people per team</span><span><Check size={16} /> Institutions across India</span></div></div></section>
