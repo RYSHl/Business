@@ -1,3 +1,4 @@
+import ventureLogo from '../Venture X logo.png';
 import { useEffect, useState, type ReactNode } from 'react';
 import {
   ArrowDownRight, ArrowRight, Award, BarChart3, CalendarDays, Check,
@@ -93,10 +94,10 @@ function App() {
       <header className="site-header">
         <a className="brand" href="#top" onClick={closeMenu} aria-label="Venture X 2026 home">
   <img
-    src="/Business/Venture%20X%20logo.png"
-    alt="Venture X 2026"
-    className="brand-logo"
-  />
+  src={ventureLogo}
+  alt="Venture X 2026"
+  className="brand-logo"
+/>
 
   <span>
     <b>VENTURE X 2026</b>
