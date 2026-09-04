@@ -355,6 +355,123 @@ In addition, the club maintains strong connections with entrepreneurs, startup f
 
 </section>
 
+
+        {/* IMPORTANT DATES */}
+<section className="important-dates section-pad">
+
+  <div className="important-dates-heading">
+    <SectionLabel>Mark your calendar</SectionLabel>
+
+    <h2>
+      Important
+      <br />
+      <span>dates.</span>
+    </h2>
+
+    <p>
+      Keep track of the key deadlines for Venture X 2026.
+      Plan your registration, submission and participation accordingly.
+    </p>
+  </div>
+
+
+  <div className="important-dates-list">
+
+    <div className="important-date-item">
+
+      <div className="important-date-icon">
+        <CalendarDays />
+      </div>
+
+      <div className="important-date-copy">
+        <span>01 / REGISTRATION</span>
+        <h3>Last Date of Registration</h3>
+      </div>
+
+      <div className="important-date-value">
+        <strong>20</strong>
+
+        <div>
+          <b>October</b>
+          <span>2026</span>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div className="important-date-item">
+
+      <div className="important-date-icon">
+        <CalendarDays />
+      </div>
+
+      <div className="important-date-copy">
+        <span>02 / SUBMISSION</span>
+        <h3>Last Date for Submission of Ideas</h3>
+      </div>
+
+      <div className="important-date-value">
+        <strong>25</strong>
+
+        <div>
+          <b>October</b>
+          <span>2026</span>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div className="important-date-item">
+
+      <div className="important-date-icon">
+        <CalendarDays />
+      </div>
+
+      <div className="important-date-copy">
+        <span>03 / SELECTION</span>
+        <h3>Notification of Acceptance</h3>
+      </div>
+
+      <div className="important-date-value">
+        <strong>26</strong>
+
+        <div>
+          <b>October</b>
+          <span>2026</span>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div className="important-date-item event-date">
+
+      <div className="important-date-icon">
+        <CalendarDays />
+      </div>
+
+      <div className="important-date-copy">
+        <span>04 / EVENT</span>
+        <h3>Venture X 2026</h3>
+      </div>
+
+      <div className="important-date-value event-date-value">
+        <strong>28—29</strong>
+
+        <div>
+          <b>October</b>
+          <span>2026</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
         <section id="challenge" className="challenge section-pad"><div className="section-intro intro-row"><div><SectionLabel>The challenge</SectionLabel><h2>WHAT WILL YOU SOLVE.</h2></div><p>Three lanes. One opportunity to think bigger. Official challenge topics will be released to registered participants.</p></div><div className="topic-grid">{topics.map(({ number, icon: Icon, title, copy }) => <article className="topic-card" key={number}><span className="card-number">{number}</span><Icon size={29} strokeWidth={1.4} /><h3>{title}</h3><p>{copy}</p><span className="card-arrow"><MoveUpRight size={17} /></span></article>)}</div></section>
 
         <section className="participants section-pad section-dark"><div className="participant-visual"><div className="visual-grid" /><Users size={62} strokeWidth={1} /><div className="four-count">04</div><span>people in<br />each team</span></div><div className="participant-copy"><SectionLabel>Who should enter</SectionLabel><h2>Ideas are better<br /><span>when shared.</span></h2><p>We’re inviting teams from B-Schools, Engineering Colleges, Universities and Higher Education Institutions from across India.</p><div className="check-list"><span><Check size={16} /> Student-led teams</span><span><Check size={16} /> Four people per team</span><span><Check size={16} /> Institutions across India</span></div></div></section>
