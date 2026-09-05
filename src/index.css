@@ -709,8 +709,8 @@ button { font:inherit; }
 }
 
 .committee-team-names {
-  font-size: 22px !important;
-  line-height: 1.35 !important;
+  font-size: 18px !important;
+  line-height: 1.45 !important;
 }
 .committee-card p {
   margin-top: auto;
