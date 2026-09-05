@@ -47,15 +47,42 @@ const topics = [
   },
 ];
 const timeline = [
-  ['01', 'Who can participate?'],
-  ['02', 'How many members can be in a team?'],
-  ['03', 'Is there a registration fee?'],
-  ['04', 'What do I need to submit first?'],
-  ['05', 'What happens after I submit my idea?'],
-  ['06', 'What if my idea doesnot fit the listed themes'],
-  ['07', 'Will I receive a certificate?'],
+  [
+    '01',
+    'WHO CAN PARTICIPATE?',
+    'Students from B-Schools, engineering colleges, universities, higher education institutions and higher secondary schools from across India are invited to participate.'
+  ],
+  [
+    '02',
+    'HOW MANY MEMBERS CAN BE IN A TEAM?',
+    'Each team can have up to 3 members.'
+  ],
+  [
+    '03',
+    'IS THERE A REGISTRATION FEE?',
+    'Yes, the registration fee is ₹1,500 per team.'
+  ],
+  [
+    '04',
+    'WHAT DO I NEED TO SUBMIT FIRST?',
+    'Start with a 300–500 word summary of your business idea at the submission stage.'
+  ],
+  [
+    '05',
+    'WHAT HAPPENS AFTER I SUBMIT MY IDEA?',
+    'Promising ideas are shortlisted, then move to a Business Plan Presentation before the judging panel, followed by a Final Pitch for the top teams.'
+  ],
+  [
+    '06',
+    "WHAT IF MY IDEA DOESN'T FIT THE LISTED THEMES?",
+    'Bring it anyway. VentureX welcomes any idea that solves a real problem and creates real impact, beyond the suggested tracks.'
+  ],
+  [
+    '07',
+    'WILL I RECEIVE A CERTIFICATE?',
+    'Yes, every participant receives a certificate of participation.'
+  ],
 ];
-
 function SectionLabel({ children }: { children: ReactNode }) {
   return <p className="section-label"><span />{children}</p>;
 }
@@ -630,17 +657,36 @@ In addition, the club maintains strong connections with entrepreneurs, startup f
     </h2>
   </div>
 
-  <div className="timeline-list">
-    {timeline.map(([number, title]) => (
-      <div className="timeline-item" key={number}>
+ <div className="timeline-list">
+  {timeline.map(([number, title, answer], index) => {
+    const isOpen = openFaq === index;
+
+    return (
+      <div
+        className={`timeline-item ${isOpen ? 'is-open' : ''}`}
+        key={number}
+        onClick={() => setOpenFaq(isOpen ? null : index)}
+      >
         <span>{number}</span>
-        <div>
+
+        <div className="timeline-question">
           <h3>{title}</h3>
+
+          {isOpen && (
+            <p className="timeline-answer">
+              {answer}
+            </p>
+          )}
         </div>
-        <ArrowRight size={17} />
+
+        <ArrowRight
+          size={17}
+          className={isOpen ? 'faq-arrow-open' : ''}
+        />
       </div>
-    ))}
-  </div>
+    );
+  })}
+</div>
 </section>
 
         <section id="location" className="location section-pad section-light"><div className="location-map"><div className="map-lines" /><div className="map-pin"><MapPin size={28} fill="currentColor" /></div><span className="map-label">BIT MESRA - Noida Campus</span><div className="map-coord">23°24' N<br />85°26' E</div></div><div className="location-copy"><SectionLabel>Save the date</SectionLabel><h2>See you<br /><span>at BIT MESRA - NOIDA Campus.</span></h2><div className="date-block"><CalendarDays /><div><b>28th — 29th October 2026</b><span>10:00 AM — 6:00 PM</span></div></div><div className="date-block"><MapPin /><div><b>BIT Mesra - Noida Campus</b><span>A-7, Block A, Sector 1, Noida, Uttar Pradesh 201301</span></div></div><a className="text-link" href={event.mapUrl}>Open map <ExternalLink size={15} /></a></div></section>
