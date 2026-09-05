@@ -679,9 +679,11 @@ In addition, the club maintains strong connections with entrepreneurs, startup f
     </span>
 
     <h3 className="committee-team-names">
-  RIDDHIMA KAUR • AMIR KHAN • PRATHAM JAIN
+  RIDDHIMA KAUR • AMIR KHAN
   <br />
-  VIVEK KUMAR • ATHARVA SINHA • ANKUSH KUMAR
+  PRATHAM JAIN • VIVEK KUMAR
+  <br />
+  ATHARVA SINHA • ANKUSH KUMAR
 </h3>
     <p>Venture X 2026</p>
   </div>
