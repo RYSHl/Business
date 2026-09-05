@@ -517,10 +517,14 @@ By partnering with Venture X, your organization becomes part of a community shap
           </p>
         </div>
 
-        <a href="mailto:sponsors@venturex2026.com">
-          Become a Sponsor
-          <ArrowDownRight size={18} />
-        </a>
+        <a
+  href="https://simplebooklet.com/venturexsponserbrochurepdf"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Become a Sponsor
+  <ArrowDownRight size={18} />
+</a>
       </section>
 
 
