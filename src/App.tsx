@@ -89,6 +89,7 @@ function SectionLabel({ children }: { children: ReactNode }) {
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [openFaq, setOpenFaq] = useState<number | null>(null);
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
   const [activeInfo, setActiveInfo] = useState<string | null>(null);
 
