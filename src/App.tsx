@@ -773,7 +773,7 @@ In addition, the club maintains strong connections with entrepreneurs, startup f
   <small>EMAIL</small>
 
   <b style={{ display: 'block', marginTop: '8px' }}>
-    shriishti@gmail.com
+    shriiiistii@gmail.com
   </b>
 
   <b style={{ display: 'block', marginTop: '8px' }}>
