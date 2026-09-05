@@ -610,38 +610,87 @@ In addition, the club maintains strong connections with entrepreneurs, startup f
 
  <div className="committee-grid">
 
+  {/* 01 — CHIEF PATRON */}
   <div className="committee-card">
     <div className="committee-number">01</div>
 
-    <span className="committee-title">CHAIRMAN</span>
+    <span className="committee-title">
+      CHIEF PATRON
+    </span>
 
-    <h3>Dr. Vikas Tripathi</h3>
+    <h3>Prof. (Dr.) Indranil Manna</h3>
 
-    <p>Director, BIT Noida</p>
+    <p>Vice Chancellor, BIT Mesra, Ranchi</p>
   </div>
 
 
+  {/* 02 — PATRON */}
   <div className="committee-card">
     <div className="committee-number">02</div>
 
     <span className="committee-title">
-      ORGANIZING SECRETARY
+      PATRON
     </span>
 
-    <h3>Dr. Ujjala</h3>
-    <h3>Dr. TPO</h3>
+    <h3>Prof. (Dr.) Vikas Tripathi</h3>
+
+    <p>Director, BIT Mesra, Noida Campus</p>
   </div>
 
 
+  {/* 03 — FACULTY COORDINATOR */}
   <div className="committee-card">
     <div className="committee-number">03</div>
 
     <span className="committee-title">
-      STUDENT CONVENERS
+      FACULTY COORDINATOR
     </span>
 
-    <h3>Shristi Kashyap</h3>
-    <h3>Dhrubajyoti Paul</h3>
+    <h3>Prof. Umair Ujala</h3>
+
+    <p>Faculty Coordinator, Entrepreneurship Club</p>
+  </div>
+
+
+  {/* 04 — STUDENT COORDINATORS */}
+  <div className="committee-card">
+    <div className="committee-number">04</div>
+
+    <span className="committee-title">
+      STUDENT COORDINATORS
+    </span>
+
+    <h3>
+      Shristi Kashyap
+      <br />
+      Dhrubajyoti Paul
+    </h3>
+
+    <p>Venture X 2026</p>
+  </div>
+
+
+  {/* 05 — STUDENT ORGANIZING TEAM */}
+  <div className="committee-card">
+    <div className="committee-number">05</div>
+
+    <span className="committee-title">
+      STUDENT ORGANIZING TEAM
+    </span>
+
+    <h3>
+      Riddhima Kaur
+      <br />
+      Amir Khan
+      <br />
+      Pratham Jain
+      <br />
+      Vivek Kumar
+      <br />
+      Atharva Sinha
+      <br />
+      Ankush Kumar
+    </h3>
 
     <p>Venture X 2026</p>
   </div>
