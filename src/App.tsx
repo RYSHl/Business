@@ -670,7 +670,17 @@ In addition, the club maintains strong connections with entrepreneurs, startup f
 </section>
         <section id="contact" className="contact section-pad section-light"><div><SectionLabel>Stay connected</SectionLabel><h2>Let’s build<br /><span>what’s next.</span></h2></div><div className="contact-fields"><div><small>CONTACT PERSON</small><b>Shristi Kashyap</b>
 
-<b>Dhrubajyoti Paul</b></div><div><small>PHONE</small><b>+91 70018 50166</b><b>+91 9864270454</b></div><div><small>EMAIL</small><b>shriiiistii@gmail.com</b></div><div>
+<b>Dhrubajyoti Paul</b></div><div>
+  <small>PHONE</small>
+
+  <b style={{ display: 'block', marginTop: '8px' }}>
+    +91 70018 50166
+  </b>
+
+  <b style={{ display: 'block', marginTop: '8px' }}>
+    +91 9864270454
+  </b>
+</div><div><small>EMAIL</small><b>shriiiistii@gmail.com</b></div><div>
   <small>WEBSITE</small>
   <b>
     <a
