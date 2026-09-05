@@ -680,7 +680,17 @@ In addition, the club maintains strong connections with entrepreneurs, startup f
   <b style={{ display: 'block', marginTop: '8px' }}>
     +91 9864270454
   </b>
-</div><div><small>EMAIL</small><b>shriiiistii@gmail.com</b></div><div>
+</div><div>
+  <small>EMAIL</small>
+
+  <b style={{ display: 'block', marginTop: '8px' }}>
+    shriishti@gmail.com
+  </b>
+
+  <b style={{ display: 'block', marginTop: '8px' }}>
+    YOUR-SECOND-EMAIL@gmail.com
+  </b>
+</div><div>
   <small>WEBSITE</small>
   <b>
     <a
