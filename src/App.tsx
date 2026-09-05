@@ -260,7 +260,7 @@ function App() {
     </div>
 
     <div>
-      <b>04</b>
+      <b>03</b>
       <span>
         People<br />
         per team
@@ -558,7 +558,7 @@ In addition, the club maintains strong connections with entrepreneurs, startup f
 
         <section id="challenge" className="challenge section-pad"><div className="section-intro intro-row"><div><SectionLabel>The challenge</SectionLabel><h2>WHAT WILL YOU SOLVE.</h2></div><p>Three lanes. One opportunity to think bigger. Official challenge topics will be released to registered participants.</p></div><div className="topic-grid">{topics.map(({ number, icon: Icon, title, copy }) => <article className="topic-card" key={number}><span className="card-number">{number}</span><Icon size={29} strokeWidth={1.4} /><h3>{title}</h3><p>{copy}</p><span className="card-arrow"><MoveUpRight size={17} /></span></article>)}</div></section>
 
-        <section className="participants section-pad section-dark"><div className="participant-visual"><div className="visual-grid" /><Users size={62} strokeWidth={1} /><div className="four-count">04</div><span>people in<br />each team</span></div><div className="participant-copy"><SectionLabel>Who should enter</SectionLabel><h2>Ideas are better<br /><span>when shared.</span></h2><p>We’re inviting teams from B-Schools, Engineering Colleges, Universities and Higher Education Institutions from across India.</p><div className="check-list"><span><Check size={16} /> Student-led teams</span><span><Check size={16} /> Four people per team</span><span><Check size={16} /> Institutions across India</span></div></div></section>
+        <section className="participants section-pad section-dark"><div className="participant-visual"><div className="visual-grid" /><Users size={62} strokeWidth={1} /><div className="four-count">03</div><span>people in<br />each team</span></div><div className="participant-copy"><SectionLabel>Who should enter</SectionLabel><h2>Ideas are better<br /><span>when shared.</span></h2><p>We’re inviting teams from B-Schools, Engineering Colleges, Universities and Higher Education Institutions from across India.</p><div className="check-list"><span><Check size={16} /> Student-led teams</span><span><Check size={16} /> Four people per team</span><span><Check size={16} /> Institutions across India</span></div></div></section>
 
         <section id="prizes" className="prizes section-pad section-light"><div className="prize-heading"><SectionLabel>The reward</SectionLabel><h2>Ideas worth<br /><span>investing in.</span></h2><p>Bring the plan. Earn the platform. Take your first step toward BIT-NISHAN.</p></div><div className="prize-list"><div className="prize-card first"><span className="prize-place">01 / FIRST PRIZE</span><Trophy size={39} strokeWidth={1.2} /><b>₹31,000</b><small>For the boldest business plan</small></div><div className="prize-card second"><span className="prize-place">02 / SECOND PRIZE</span><Award size={35} strokeWidth={1.2} /><b>₹21,000</b><small>For a plan with momentum</small></div><div className="prize-card third"><span className="prize-place">03 / THIRD PRIZE</span><Target size={32} strokeWidth={1.2} /><b>₹11,000</b><small>For an idea with promise</small></div></div></section>
 
@@ -688,7 +688,7 @@ In addition, the club maintains strong connections with entrepreneurs, startup f
   </b>
 
   <b style={{ display: 'block', marginTop: '8px' }}>
-    YOUR-SECOND-EMAIL@gmail.com
+    bcom45004.25@bitmesra.ac.in
   </b>
 </div><div>
   <small>WEBSITE</small>
