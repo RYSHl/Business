@@ -707,6 +707,11 @@ button { font:inherit; }
   font: 600 24px/1.05 'Oswald', sans-serif;
   text-transform: uppercase;
 }
+
+.committee-team-names {
+  font-size: 22px !important;
+  line-height: 1.35 !important;
+}
 .committee-card p {
   margin-top: auto;
   padding-top: 25px;
