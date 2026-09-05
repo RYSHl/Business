@@ -678,20 +678,11 @@ In addition, the club maintains strong connections with entrepreneurs, startup f
       STUDENT ORGANIZING TEAM
     </span>
 
-    <h3>
-      Riddhima Kaur
-      <br />
-      Amir Khan
-      <br />
-      Pratham Jain
-      <br />
-      Vivek Kumar
-      <br />
-      Atharva Sinha
-      <br />
-      Ankush Kumar
-    </h3>
-
+    <h3 className="committee-team-names">
+  RIDDHIMA KAUR • AMIR KHAN • PRATHAM JAIN
+  <br />
+  VIVEK KUMAR • ATHARVA SINHA • ANKUSH KUMAR
+</h3>
     <p>Venture X 2026</p>
   </div>
 
